@@ -1,6 +1,6 @@
 ### user-preference-interface
 
-##Web interface developed with php. Accessible by the Hybrid-Reasoning-System, and creates/modifys preference ranking
+##Web interface developed with php. Accessible by the Hybrid-Reasoning-System, and creates/modifies preference ranking
 =========================================Requirements and setting-up========================================
 XAMPP installation is needed
 
