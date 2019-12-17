@@ -1,18 +1,25 @@
 ### user-preference-interface
 
 ##Web interface developed with php. Accessible by the Hybrid-Reasoning-System, and creates/modifies preference ranking
-=========================================Requirements and setting-up========================================
+=========================================Requirements and setting-up==============================================
 XAMPP installation is needed. Install XAMPP in the c: drive
 
 Download folder (user-preference-interface) to the c:/xampp/htdocs location
 
-current folder location should be c:/xampp/htdocs/user-preference-interface
+current folder location should be c:/xampp/htdocs/user-preference-interface/html
 
-Start XAMPP server
+Open the home.php file change the login acces to give access to your MySQL Database.
+          $servername "localhost"
+          $username = "" (your DB username)
+          $password = "" (your DB password)
+          $dbname = "preferences"
 
-Access localhost home page using, localhost/user-preference-interface/hmtl/home.php
+Save and start XAMPP server
 
-=============================================== Usage ================================================
+Access localhost home page using, localhost/user-preference-interface/hmtl/home.php.
+This should lunch the home page of the preference interface.
+
+=============================================== Usage ========================================================
 #(Home: RETRIEVE OR SETUP USER)
 
 "New User": Accept any user name
