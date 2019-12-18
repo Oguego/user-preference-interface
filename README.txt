@@ -6,7 +6,7 @@ XAMPP installation is needed. Install XAMPP in the c: drive
 
 Download folder (user-preference-interface) to the c:/xampp/htdocs location
 
-current folder location should be c:/xampp/htdocs/user-preference-interface/html
+current folder location should be c:/xampp/htdocs/user-preference-interface-master/Preferences
 
 Open the home.php file change the login acces to give access to your MySQL Database.
           $servername "localhost"
@@ -16,9 +16,9 @@ Open the home.php file change the login acces to give access to your MySQL Datab
 
 Save and start XAMPP server
 
-Access localhost home page using, localhost/user-preference-interface/hmtl/home.php.
-This should lunch the home page of the preference interface.
+Access localhost home page using, localhost/user-preference-interface-master/Preferences
 
+This should lunch the home page of the preference interface.
 =============================================== Usage ========================================================
 #(Home: RETRIEVE OR SETUP USER)
 
