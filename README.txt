@@ -8,16 +8,21 @@ Download folder (user-preference-interface) to the c:/xampp/htdocs location
 
 current folder location should be c:/xampp/htdocs/user-preference-interface-master/Preferences
 
-Open the home.php file change the login acces to give access to your MySQL Database.
+Open the connection.php file change the login acces to give access to your MySQL Database.
+          Currently looks like:
+          $servername = "localhost";
+          $username = "mysql";
+          $password = "123456";
+          $dbname = "preferences";
+          
+          Should be:
           $servername "localhost"
           $username = "" (your DB username)
           $password = "" (your DB password)
           $dbname = "preferences"
-
 Save and start XAMPP server
 
-Access localhost home page using, localhost/user-preference-interface-master/Preferences
-
+Access localhost home page using, localhost/user-preference-interface-master/Preferences/html/home.php
 This should lunch the home page of the preference interface.
 =============================================== Usage ========================================================
 #(Home: RETRIEVE OR SETUP USER)
