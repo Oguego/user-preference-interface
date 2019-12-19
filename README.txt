@@ -9,13 +9,13 @@ Download folder (user-preference-interface) to the c:/xampp/htdocs location
 current folder location should be c:/xampp/htdocs/user-preference-interface-master/Preferences
 
 Open the connection.php file change the login acces to give access to your MySQL Database.
-          Currently looks like:
+       Currently looks like:
           $servername = "localhost";
           $username = "mysql";
           $password = "123456";
           $dbname = "preferences";
           
-          Should be:
+       Should be:
           $servername "localhost"
           $username = "" (your DB username)
           $password = "" (your DB password)
