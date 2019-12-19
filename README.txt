@@ -6,6 +6,8 @@ XAMPP installation is needed. Install XAMPP in the c: drive
 
 Download folder (user-preference-interface) to the c:/xampp/htdocs location
 
+Xampp installer can be found here: https://www.apachefriends.org/download.html
+
 current folder location should be c:/xampp/htdocs/user-preference-interface-master/Preferences
 
 Open the connection.php file change the login acces to give access to your MySQL Database.
