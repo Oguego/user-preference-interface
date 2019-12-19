@@ -4,9 +4,9 @@
 =========================================Requirements and setting-up==============================================
 XAMPP installation is needed. Install XAMPP in the c: drive
 
-Download folder (user-preference-interface) to the c:/xampp/htdocs location
-
 Xampp installer can be found here: https://www.apachefriends.org/download.html
+
+Download folder (user-preference-interface) to the c:/xampp/htdocs location
 
 current folder location should be c:/xampp/htdocs/user-preference-interface-master/Preferences
 
