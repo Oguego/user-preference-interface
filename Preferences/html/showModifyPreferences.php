@@ -32,10 +32,11 @@ body, html {
 <!-- Add a background color and large text to the whole page -->
 <div class="w3-sand w3-grayscale w3-large">';
 
-$servername = "localhost";
-$username = "mysql";
-$password = "123456";
-$dbname = "preferences";
+// $servername = "localhost";
+// $username = "mysql";
+// $password = "123456";
+// $dbname = "preferences";
+require_once("connection.php");
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);

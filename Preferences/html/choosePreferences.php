@@ -33,10 +33,11 @@ body, html {
     <h2 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">SELECT YOUR PREFERENCE(S)</span></h2>
     <form action="choosePriorities.php" target="_blank" method="post">';
 
-$servername = "localhost";
-$username = "mysql";
-$password = "123456";
-$dbname = "preferences";
+// $servername = "localhost";
+// $username = "mysql";
+// $password = "123456";
+// $dbname = "preferences";
+require_once("connection.php");
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);

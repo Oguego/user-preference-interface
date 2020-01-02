@@ -2,15 +2,13 @@
 
 ##Web interface developed with php. Accessible by the Hybrid-Reasoning-System, and creates/modifies preference ranking
 =========================================Requirements and setting-up========================================
-XAMPP installation is needed. Install XAMPP in the c: drive
+XAMPP installation is needed
 
-Download folder (user-preference-interface) to the c:/xampp/htdocs location
-
-current folder location should be c:/xampp/htdocs/user-preference-interface
+Download folder (user-preference-interface) to a c: location
 
 Start XAMPP server
 
-Access localhost home page using, localhost/user-preference-interface/hmtl/home.php
+Access localhost home page. (localhost/preferences/hmtl/home.php)
 
 =============================================== Usage ================================================
 #(Home: RETRIEVE OR SETUP USER)

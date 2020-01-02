@@ -33,16 +33,16 @@ body, html {
     <h2 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">RETRIEVE OR SETUP USER(S)</span></h2>
     <form action="showModifyPreferences.php" target="_blank" method="post">';
 
+require_once("connection.php");
 
-$servername = "localhost";
-$username = "mysql";
-$password = "123456";
-$dbname = "preferences";
+//$servername = "localhost";
+//$username = "mysql";
+//$password = "123456";
+//$dbname = "preferences";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
-// Check connection
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
