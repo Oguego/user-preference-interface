@@ -1,52 +1,15 @@
-### user-preference-interface
+Database Name: preferences
+Table Names: "preference", "priority" and "user"
+	"preference" = preferences_preference.sql
+	"priority" = preferences_priority.sql
+	"user" = preferences_user.sql
+Database: MySQL Workbench
+===========================================================
+#Copy each file and run it on MySQL or you import all three files from the workbench IDE
+#Check if the tables have some avaliable content. 
+	Such as, "user table": 'Sara', 'Jose' and 'Leonard'
+#All table should have few contents avaliable for testing.
 
-##Web interface developed with php. Accessible by the Hybrid-Reasoning-System, and creates/modifies preference ranking
-=========================================Requirements and setting-up==============================================
-XAMPP installation is needed. Install XAMPP in the c: drive
 
-Xampp installer can be found here: https://www.apachefriends.org/download.html
-
-Download folder (user-preference-interface) to the c:/xampp/htdocs location
-
-current folder location should be c:/xampp/htdocs/user-preference-interface-master/Preferences
-
-Open the connection.php file change the login acces to give access to your MySQL Database.
-       Currently looks like:
-          $servername = "localhost";
-          $username = "mysql";
-          $password = "123456";
-          $dbname = "preferences";
-          
-       Should be:
-          $servername "localhost"
-          $username = "" (your DB username)
-          $password = "" (your DB password)
-          $dbname = "preferences"
-Save and start XAMPP server
-
-Access localhost home page using, localhost/user-preference-interface-master/Preferences/html/home.php
-This should lunch the home page of the preference interface.
-=============================================== Usage ========================================================
-#(Home: RETRIEVE OR SETUP USER)
-
-"New User": Accept any user name
-
-"Submit":
-#(SELECT YOUR PREFERENCES) 
-Provides list of avaliable set preferences to choose from and manage
-
-#(PRIORITIZE SELECTED PRERENCES) Allow you to rank selected preferences from 1-10 (10 being highest priority)
-
-Records of the user are saved in the DB (currently connected to MySQL)
-
--------------------------------------------------------------------------------------------------------------
-
-#(Home: RETRIEVE OR SETUP USER)
-
-"Existing User": Select from an existing user from the list
-
-"Submit": Retrieves the records of the selected user
-
-#(MODIFY SELECTED PREFERENCES): Modify/edit preference ranking or assign ranking to a preference without a ranking
-
-Records are updated in DB
+NOTE: The preference names, avalaiable in the "preference table", can only be moodified backend. 
+Meaning can only be modified at the MySQL database, as the aim is to make users adhere to strict preferences 
