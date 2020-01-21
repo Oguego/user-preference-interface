@@ -1,4 +1,4 @@
-Database Name: preferences
+Database: preferences
 Table Names: "preference", "priority" and "user"
 	"preference" = preferences_preference.sql
 	"priority" = preferences_priority.sql
